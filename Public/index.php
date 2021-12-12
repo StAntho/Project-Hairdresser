@@ -1,4 +1,6 @@
 <?php
 
 define('ROOT', dirname(__DIR__));
-require ROOT . '/'
+require ROOT . '/vendor/autoload.php';
+
+require ROOT . '/Config/Router.php';
